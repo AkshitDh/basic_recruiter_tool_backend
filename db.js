@@ -1,11 +1,11 @@
 const { Pool } = require("pg");
 
 const pool = new Pool({
-  user: "postgres",
+  user: "basic_recruiter_tool_db_user",
   password: process.env.DB_PASSWORD,
-  host: "localhost",
+  host: "dpg-cmnm19da73kc73avcrtg-a",
   port: 5432, // default Postgres port
-  database: "basic_recruiter_tool",
+  database: "basic_recruiter_tool_db",
 });
 
 module.exports = {
